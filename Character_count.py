@@ -6,4 +6,4 @@ visited=[]
 for char in lst2:
     if char  not in visited:
         visited.append(char) # Adding unique values to variable visit
-        print(f"{char}:{lst2.count(ch)}",ed="  ") 
+        print(f"{char}:{lst2.count(ch)}",end="  ") 
